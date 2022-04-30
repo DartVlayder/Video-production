@@ -1,0 +1,26 @@
+.hello {
+    text-align: center;
+}
+.hello__title {
+    width: 776px;
+    font-size: 72px;
+    font-weight: 800;
+    margin: 0 auto;
+    margin-bottom: 12px;
+    text-transform: uppercase;
+}
+.hello__subtitle{
+    font-size: 18px;
+    margin-bottom: 38px;
+}
+.button {
+    background: #FF5500;
+    border-radius: 35px;
+    padding: 18px 54px;
+    display: inline-block;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.button:hover {
+    background: #FF3D00;
+}

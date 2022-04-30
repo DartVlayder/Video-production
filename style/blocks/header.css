@@ -1,0 +1,54 @@
+.header {
+    height: 77px;
+    position: relative;
+    margin: 0 auto;
+	width: 1150px;  
+    margin-bottom: 150px;
+}
+.logo {
+    display: block;
+    position: absolute;
+    top: 20px;
+    left: 9px;
+}
+.menu {
+    position: absolute;
+    top: 40px;
+    left: 453px;
+}
+.contacts {
+    position: absolute;
+    top: 30px;
+    right: -1px;
+}
+.menu__item {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 50px;
+}
+.menu__item--active .menu__link {
+    color: #FF5500;
+}
+.menu__item:last-child {
+    margin-right: 0;
+}
+.menu__link {
+    font-size: 14px;
+}
+.menu__link:hover {
+    color: #FF3D00;
+}
+.contacts {
+    font-style: normal;
+    text-align: right;
+    line-height: 1.1;
+}
+.contacts__phone {
+    text-decoration: none;
+    font-size: 26px;
+}
+.contacts__info {
+    font-size: 13px;
+    text-decoration: underline;
+    color: #FF3D00;
+}
