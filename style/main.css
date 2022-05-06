@@ -7,3 +7,7 @@
 @import url(./blocks/paginator.css);
 @import url(./blocks/about.css);
 @import url(./blocks/footer.css);
+@import url(./blocks/services-page/top-line.css);
+@import url(./blocks/services-page/services.css);
+@import url(./blocks/services-page/inner-section.css);
+@import url(./blocks/services-page/inner-footer.css);

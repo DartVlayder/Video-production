@@ -1,3 +1,17 @@
 .main-page-wrapepr {
     background: url(../../img/hero.png) center top no-repeat, url(../../img/bottom-pic.png) center bottom 306px no-repeat;
 }
+body, html{
+    height: 100%;
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    overflow: hidden;
+    min-width: 1200px;
+}
+.container {
+    margin: 0 auto;
+    width: 1140px;
+}

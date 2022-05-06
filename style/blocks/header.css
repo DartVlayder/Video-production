@@ -1,25 +1,14 @@
 .header {
-    height: 77px;
-    position: relative;
     margin: 0 auto;
 	width: 1150px;  
     margin-bottom: 150px;
+    display: flex;
 }
-.logo {
-    display: block;
-    position: absolute;
-    top: 20px;
-    left: 9px;
-}
-.menu {
-    position: absolute;
-    top: 40px;
-    left: 453px;
-}
-.contacts {
-    position: absolute;
-    top: 30px;
-    right: -1px;
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 27px;
 }
 .menu__item {
     display: inline-block;
