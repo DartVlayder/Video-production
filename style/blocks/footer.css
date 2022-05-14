@@ -17,6 +17,7 @@
 .footer .contacts__info {
     color: #9A9A9A;
     font-size: 11px;
+    margin-bottom: 5px;
 }
 .social__item {
     display: inline-block;
@@ -31,28 +32,132 @@
     text-decoration: none;
     width: 36px;
     height: 36px;
+    position: relative;
 }
-.social__item--icon--telegram .social__link {
-    background-image: url(../../img/icons/telegram.svg);
+.social__item--icon--telegram .social__link::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 36px; 
+    height: 36px;
+    background: url(../../img/icons/css_sprites.png) -122px -10px;
+    transition: .3s;
 }
-.social__item--icon--telegram .social__link:hover {
-    background-image: url(../../img/icons/t-hover.svg);
+.social__item--icon--telegram .social__link::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 36px; 
+    height: 36px;
+    background: url(../../img/icons/css_sprites.png) -122px -66px;
+    opacity: 0;
+    transition: .3s;
 }
-.social__item--icon--vk .social__link {
-    background-image: url(../../img/icons/vk.svg);
+.social__item--icon--telegram .social__link:hover:before {
+    opacity: 1;
 }
-.social__item--icon--vk .social__link:hover {
-    background-image: url(../../img/icons/vk-hover.svg);
+.social__item--icon--telegram .social__link:hover:after {
+    opacity: 0;
 }
-.social__item--icon--facebook .social__link {
-    background-image: url(../../img/icons/f.svg);
+
+.social__item--icon--vk .social__link::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 36px; 
+    height: 36px;
+    background: url(../../img/icons/css_sprites.png) -10px -122px;
+    transition: .3s;
 }
-.social__item--icon--facebook .social__link:hover {
-    background-image: url(../../img/icons/f-hover.svg);
+.social__item--icon--vk .social__link::before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 36px; 
+    height: 36px;
+    background: url(../../img/icons/css_sprites.png) -66px -122px;
+    opacity: 0;
+    transition: .3s;
 }
-.social__item--icon--instagram .social__link {
-    background-image: url(../../img/icons/in.svg);
+.social__item--icon--vk .social__link:hover::before{
+    opacity: 1;
 }
-.social__item--icon--instagram .social__link:hover {
-    background-image: url(../../img/icons/in-hover.svg);
+.social__item--icon--vk .social__link:hover::after{
+    opacity: 0;
+}
+
+.social__item--icon--facebook .social__link::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 36px; 
+    height: 36px;
+    background: url(../../img/icons/css_sprites.png) -10px -10px;
+    transition: .3s;
+}
+.social__item--icon--facebook .social__link::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 36px; 
+    height: 36px;
+    background: url(../../img/icons/css_sprites.png) -66px -10px;
+    opacity: 0;
+    transition: .3s;
+}
+.social__item--icon--facebook .social__link:hover::before{
+    opacity: 0;
+}
+.social__item--icon--facebook .social__link:hover:after {
+    opacity: 1;
+}
+
+.social__item--icon--instagram .social__link::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 36px; 
+    height: 36px;
+    background: url(../../img/icons/css_sprites.png) -10px -66px;
+    transition: .3s;
+}
+.social__item--icon--instagram .social__link::after{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 36px; 
+    height: 36px;
+    background: url(../../img/icons/css_sprites.png) -66px -66px;
+    opacity: 0;
+    transition: .3s;
+}
+.social__item--icon--instagram .social__link:hover::before {
+    opacity: 0;
+}
+.social__item--icon--instagram .social__link:hover::after {
+    opacity: 1;
 }

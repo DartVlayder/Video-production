@@ -24,4 +24,5 @@
 }
 .button:hover {
     background: #FF3D00;
+    transition: .5s;
 }

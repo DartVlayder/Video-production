@@ -1,0 +1,81 @@
+.inner-section__form {
+    padding-top: 80px;
+}
+.form-section__title {
+    font-size: 36px;
+    font-weight: 800;
+    padding-bottom: 56px;;
+}
+.form__row {
+    display: flex;
+    margin-bottom: 25px;
+}
+.form__input {
+    flex: 1;
+    margin-right: 30px;
+    border-radius: 4px;
+    border: none;
+    background: #fff;
+    padding: 22px 30px;
+    font-size: 18px;
+    color: #000;
+    outline: none;
+}
+.form__input:focus {
+    border: 1px solid #ff3d00;
+}
+.form__input::placeholder {
+    color: #666;
+}
+.form__input:last-child {
+    margin-right: 0px;
+}
+.form__input--textarea {
+    height: 232px;
+}
+.form__controls {
+    display: flex;
+    margin-bottom: 11px;
+}
+.form__controls-title {
+    width: 39%;
+    font-size: 18px;
+    font-weight: 400;
+}
+.controls {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+}
+.controls__item {
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+.controls__elem {
+    cursor: pointer;
+}
+.contrpls__checkbox:checked ~ .controls__tag {
+    background: #F2D4C9;
+}
+.contrpls__checkbox {
+    display: none;
+}
+.form__btns {
+    display: flex;
+    justify-content: flex-end;
+}
+.form__button {
+    margin-right: 20px;
+    color: #FFFFFF;
+    padding: 18px 37px;
+}
+.form__button:last-child {
+    margin-right: 0;
+}
+.button--color--grey {
+    background: #8E8E8E;
+}
+.button--color--grey:hover {
+    background: #888888;
+    transition: .5s;
+}

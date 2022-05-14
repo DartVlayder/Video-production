@@ -26,4 +26,5 @@
 }
 .partners__link:hover {
     filter: grayscale(0);
+    transition: .5s;
 }

@@ -11,3 +11,7 @@
 @import url(./blocks/services-page/services.css);
 @import url(./blocks/services-page/inner-section.css);
 @import url(./blocks/services-page/inner-footer.css);
+@import url(./blocks/review-page/review.css);
+@import url(./blocks/review-page/separator.css);
+@import url(./blocks/review-page/form.css);
+@import url(./blocks/welcome/welcome.css);

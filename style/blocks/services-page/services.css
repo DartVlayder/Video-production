@@ -43,4 +43,5 @@
 .paginator--theme--dark .pagination__link:hover {
     color: #ffffff;
     background: #FF5300;
+    transition: .5s;
 }

@@ -65,4 +65,5 @@
 .button--light:hover {
     background: #ff5500;
     color: #fff;
+    transition: .5s;
 }
