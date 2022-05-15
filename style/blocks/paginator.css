@@ -24,6 +24,6 @@
     position: relative;
     line-height: 32px;
 }
-.paginator__item--active .paginator__link {
+.paginator__link:hover {
     background: #FF5500;
 }

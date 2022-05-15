@@ -34,14 +34,10 @@
 .paginator--theme--dark {
     color:#000000;
 }
-.paginator--theme--dark .paginator__item--active{
-    color: #fff;
-}
 .paginator--theme--dark .paginator__item--active .pagination__link {
     background: #FF5300;
 }
-.paginator--theme--dark .pagination__link:hover {
-    color: #ffffff;
-    background: #FF5300;
-    transition: .5s;
+.paginator--theme--dark .paginator__link:hover {
+    color: #fff;
+    transition: .3s;
 }
